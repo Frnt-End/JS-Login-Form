@@ -78,6 +78,7 @@ body, html {
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+  min-height: 100%;
 }
 
 body {
@@ -638,11 +639,42 @@ cursor: pointer;
 	   text-decoration: none;
 
 }
+
+footer {
+  margin: 0 auto;
+text-align: center;
+
+color: #efded7;
+
+font-size: 14px;
+}
+
+footer a {
+  color: #efded7;
+
+  font-size: 14px;
+}
+
+footer a:hover, footer a:focus {
+  color: #fff;
+  }
+
 /*------------------------------------------------------------------
 [ Responsive ]*/
 
-@media (max-width: 576px) {
-  .wrap-login100 {
-
+@media (max-width:800px) {
+body {
+  background-size: auto;
   }
+  .wrap-tnx h2 {
+    font-size: 34px;
+}
+  .wrap-tnx p {
+    width: 80%;
+    font-size: 19px;
+    margin: 0 auto;
+}
+.wrap-tnx a {
+    font-size: 16px;
+}
 }
