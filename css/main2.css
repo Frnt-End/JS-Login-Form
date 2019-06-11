@@ -9,40 +9,33 @@ input:-internal-autofill-selected {
     color: #333 !important;
 }
 
+input:-webkit-internal-autofill-selected {
+    background-color: none !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    color: #333 !important;
+}
+
  input:-webkit-autofill {
   background-color: none !important;
   background-color: transparent !important;
   background-image: none !important;
-  color: #333 !important;
+  -webkit-text-fill-color: #333;
 }
 
-input:-moz-autofill {
- background-color: none !important;
- background-color: transparent !important;
- background-image: none !important;
- color: #333 !important;
-}
+
 
 #email:-webkit-autofill {
  background-color: none !important;
  background-color: transparent !important;
  background-image: none !important;
- color: #333 !important;
-}
-#pass:-webkit-autofill {
-  background-color: none !important;
-  background-color: transparent !important;
-  background-image: none !important;
-  color: #333 !important;
+ -webkit-text-fill-color: #333;
 }
 
-#email:-moz-autofill {
- background-color: none !important;
- background-color: transparent !important;
- background-image: none !important;
- color: #333 !important;
-}
-#pass:-moz-autofill {
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
   background-color: none !important;
   background-color: transparent !important;
   background-image: none !important;
