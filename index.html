@@ -5,15 +5,15 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/main2.css">
-  <link href="fonts/css/all.css" rel="stylesheet"> 
+  <link href="fonts/css/all.css" rel="stylesheet">
 
 </head>
     <body onload="clearForm()">
-	
+
 	<div class="container">
-			
+
 				<div class="wrap-login" id="login-box">
-				
+
 				<form action="" class="login-form" id="main-form" formnovalidate>
 								<h1>Sign In</h1>
   <div class="field" id="field-wrap">
@@ -23,7 +23,7 @@
   </div>
   	  <div class="emailErr" id="email-error"></div>
 
-  
+
   <div class="field">
     <input class="inpt-pass" type="password" name="password" id="pass" placeholder="Enter your password" oninput="typePass(this.value)" required>
     <label for="pass">Password</label>
@@ -35,37 +35,37 @@
   	      <div class="passErr" id="pass-error"></div>
 
 
-  
-  
+
+
 							<div class="btns">
 							  <a href="#" class="login-btn" id="login">Login</a>
 							  <a href="#" class="forget-btn" id="forget" onclick="showHint()">Forget Password?</a>
 							  <div class="slide-btn" id="slide"></div>
 							</div>
-  
+
   </form>
 				</div>
-				
-				
-				
-				
-					<div class="wrap-tnx" id="tnx-box">	
-                       <div class="box-tnx">						
+
+
+
+
+					<div class="wrap-tnx" id="tnx-box">
+                       <div class="box-tnx">
 					    <h2>Thank You!</h2>
 						<p>For trying my JS form in GitHub, hope you enjoy it :)</p>
                         <p style="margin-bottom: 15px;">Check out my portfolio for more projects:</p>
-                         <a href="http://nirit-nagar.com">nirit-nagar.com</a>
+                         <a href="http://nirit-nagar.com"><strong>nirit-nagar.com</strong></a>
 					   </div>
                    </div>
-				   
-				    <div class="pass-hint" id="hint-pass">	                       						
+
+				    <div class="pass-hint" id="hint-pass">
 					    <h3>HEY! PSSSTT..</h3>
-						<p>The password is: <strong>nirit-nagar.com</strong></p>						
+						<p>The password is: <strong>nirit-nagar.com</strong></p>
                         <p> (but shhh..don't tell enyone:)</p>
-                         
+
                    </div>
-				  
-				
+
+
 				</div>
 
 <script src="js/main3.js"></script>
@@ -79,11 +79,11 @@
 	  opacity: 0,
 	  easing: 'easeInOutSine',
 	 });
-	 
+
 	 //var tnxBox = document.getElementById("tnx-box");
 	 //tnxBox.style.opacity = ("1");
 
-	 
+
 	 anime ({
 	  targets: '#tnx-box',
 	  duration: 1500,
@@ -91,19 +91,19 @@
 	  opacity: 1,
 	  easing: 'easeInOutSine',
 	 });
-	 
+
 	 }
-	 
+
 	 function showHint() {
 	 anime ({
 	  targets: '#hint-pass',
 	  duration: 600,
-	 translateY: -165, 
+	 translateY: -190,
 	  opacity: (0, 1),
 	  easing: 'easeInOutSine',
-	 }); 
+	 });
 	 }
-	 
+
 	 function hideHint() {
 	 anime ({
 	  targets: '#hint-pass',
