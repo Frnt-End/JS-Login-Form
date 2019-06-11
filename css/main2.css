@@ -57,7 +57,7 @@ body {
 /*---------------------------------------------*/
 a {
 	font-family: Poppins-Regular;
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 1.7;
 	margin: 0px;
 	transition: all 0.4s;
@@ -173,7 +173,7 @@ margin-top: 40px;
 }
 
 .box-tnx {
-	width: 360px;
+	width: 375px;
   margin: 0 auto;
 }
 
