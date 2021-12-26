@@ -19,7 +19,7 @@ var slideBtn = document.getElementById("slide");
 
 var eye = false;  
 var pass = false;
-var thePass = "nirit-nagar.com";
+var thePass = "nirit.website";
 var checkEmail = false;
 
   

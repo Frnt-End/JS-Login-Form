@@ -1,32 +1,35 @@
+
+# Responsive Html Sign-In Form
+
+👉 [Watch DEMO](https://frnt-end.github.io/JS-Login-Form/)
+
 ![Login Form](<images/ps.jpg> "JS Login Form")
 
 
-# Watch the login online
-
-[Link to the project](
-https://frnt-end.github.io/JS-Login-Form/)
-
-
-Details:
+# Details:
 * Login form (using html, css and js)
 * Form validation
 * CSS animation
-* Using also animejs library
+* Using [animejs](https://animejs.com) library
 * In order to use the form, type any a valid email address
 * You can find the password on click "forget password"
 * Design with css, background image from unsplash.com
 
 
-# animejs
+##  Local View
 
-Some of the animations was created with the [animejs](https://animejs.com)  library
+In your fav IDE: navigate to the main folder and type in the terminal:
+##### `npm start` or  `yarn start`
 
+👉 [Watch DEMO](https://frnt-end.github.io/JS-Login-Form/)
 
+***
+Enjoy using the app..😉
+***
 
-For more projects check out the  [portfolio](http://nirit-nagar.com)
+### License
 
+Copyright © 2019 @frnt-end
+[nirit.website](https://nirit.website)
 
-
-
- [LICENSE-2.0](
-http://www.apache.org/licenses/LICENSE-2.0)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
