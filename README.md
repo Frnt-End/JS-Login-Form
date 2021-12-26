@@ -24,7 +24,7 @@ In your fav IDE: navigate to the main folder and type in the terminal:
 👉 [Watch DEMO](https://frnt-end.github.io/JS-Login-Form/)
 
 ***
-Enjoy using the app..😉
+Enjoy using the form..😉
 ***
 
 ### License
